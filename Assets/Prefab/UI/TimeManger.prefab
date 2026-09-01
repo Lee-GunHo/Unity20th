@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8444320501009930446
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4104845018241461171}
+  - component: {fileID: 4976762844057390004}
+  m_Layer: 0
+  m_Name: TimeManger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4104845018241461171
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8444320501009930446}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.25471717, y: 0.15166616, z: 0.5768739}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4976762844057390004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8444320501009930446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f58e6b5ebb608154d9d3dcd04b322c60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  directionalLight: {fileID: 0}
+  morningColor: {r: 1, g: 0.95, b: 0.8, a: 1}
+  noonColor: {r: 1, g: 1, b: 0.9, a: 1}
+  eveningColor: {r: 1, g: 0.6, b: 0.4, a: 1}
+  eventColor: {r: 0.25, g: 0.3, b: 0.45, a: 1}
+  morningIntensity: 0.9
+  noonIntensity: 1.2
+  eveningIntensity: 0.5
+  eventIntensity: 0.15
+  morningSkybox: {fileID: 2100000, guid: 2e76c0d86819ec64aa9bc1a654d554b4, type: 2}
+  noonSkybox: {fileID: 2100000, guid: 7b74b415fc447be478286531e5be9dbf, type: 2}
+  eveningSkybox: {fileID: 2100000, guid: f3b688a0423739741b315217c5a7f600, type: 2}
+  eventSkybox: {fileID: 2100000, guid: 71531b6684ed51646acf3434d64f0666, type: 2}
+  stars: {fileID: 5160239477792305223, guid: 2d42c02c2032b2d40ade1b522fbe2e4f, type: 3}
+  eventPostVolume: {fileID: 0}
+  bgmSource: {fileID: 0}
+  morningBgm: {fileID: 0}
+  noonBgm: {fileID: 0}
+  eveningBgm: {fileID: 0}
+  eventBgm: {fileID: 0}
+  transitionDuration: 5
